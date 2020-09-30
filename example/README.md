@@ -4,7 +4,7 @@ Demonstrates how to use the geoflutterfire plugin.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Geofire plugin for flutter. Support Android, iOS and Web Platforms.
 
 A few resources to get you started if this is your first Flutter project:
 
