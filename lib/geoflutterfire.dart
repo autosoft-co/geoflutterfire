@@ -7,6 +7,8 @@ abstract class Geoflutterfire {
     List<double> center,
     double radius,
   );
+
+  Future<dynamic> geoQuery(String path, List<double> center, double radius);
 }
 
 Geoflutterfire constructGeoflutterfire(RealtimeDatabase database) =>
