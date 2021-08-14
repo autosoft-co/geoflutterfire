@@ -45,4 +45,27 @@ class GeoflutterfireImpl extends Geoflutterfire {
 
     return controller.stream;
   }
+
+  @override
+  Future<dynamic> geoQuery(
+      String path, List<double> center, double radius) async {
+    final map = Map();
+    final queries = geohashQueries(center, radius);
+    final futureData = queries.map(
+      (query) => _database.getValueAtPath(
+        path,
+        orderByChild: "g",
+        startAt: query[0],
+        endAt: query[1],
+      ),
+    );
+
+    final data = await Future.wait(futureData);
+
+    data.forEach((value) {
+      map.addAll(value ?? {});
+    });
+
+    return map;
+  }
 }
