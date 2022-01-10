@@ -3,7 +3,7 @@ import 'dart:math';
 class Range {
   double min;
   double max;
-  Range({this.min, this.max});
+  Range({required this.min, required this.max});
 }
 
 // Default geohash length
@@ -259,7 +259,7 @@ double wrapLongitude(longitude) {
   if (adjusted > 0) {
     return (adjusted % 360) - 180;
   } else {
-    return 180 - (-adjusted % 360);
+    return 180 - (-adjusted % 360) as double;
   }
 }
 

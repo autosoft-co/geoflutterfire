@@ -20,7 +20,7 @@ class GeoflutterfireImpl extends Geoflutterfire {
     final controller = StreamController();
     final queries = geohashQueries(center, radius);
     final map = Map();
-    final subs = List<StreamSubscription>();
+    final subs = <StreamSubscription>[];
 
     final streams = queries.map(
       (query) => _database.watchValueAtPath(
