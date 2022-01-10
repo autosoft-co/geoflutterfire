@@ -1,11 +1,12 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
-      <root url="file://$USER_HOME$/flutter/.pub-cache/git/realtime_database-674effd20ec327779292ffb0c2b5885c9379a5f0" />
       <root url="file://$PROJECT_DIR$" />
-      <root url="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.0" />
-      <root url="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.0" />
-      <root url="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-4.0.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.5.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_database_web-0.2.0+4" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.11.0" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase_database-9.0.5" />
+      <root url="file://$USER_HOME$/.pub-cache/git/realtime_database-3959439d0712cd087994414e3c5d4d4f671a804b" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
