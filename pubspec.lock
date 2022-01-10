@@ -168,7 +168,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "3959439d0712cd087994414e3c5d4d4f671a804b"
+      resolved-ref: "4d256b212e711828d2ef1f770956b52c4963ddf4"
       url: "https://github.com/autosoft-co/realtime_database.git"
     source: git
     version: "0.0.2"
