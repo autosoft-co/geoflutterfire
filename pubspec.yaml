@@ -14,7 +14,7 @@ dependencies:
   realtime_database:
     git:
       url: https://github.com/autosoft-co/realtime_database.git
-      ref: ce441c6ad2b84eabb8f47912a5228bb23f283caa
+      ref: f1a5221ed4079769d77b8a5fbdc6405beb1bb0b8
 
 dev_dependencies:
   flutter_test:
